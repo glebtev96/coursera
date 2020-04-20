@@ -1,2 +1,2 @@
-n = int(input())
-print((n // 2 + 1) * (2))
+n = input()
+print(int(n * 100) ** 2)
