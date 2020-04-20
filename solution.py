@@ -1,6 +1,4 @@
-h = int(input())
-a = int(input())
-b = int(input())
-s = a - b
-d = ((h - a) + s - 1) // s + 1
-print(d)
+n = int(input())
+a = str(n // 1000)
+b = str(n % 1000 // 100)
+print(int(b + a) - n % 100 + 1)
